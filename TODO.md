@@ -3,7 +3,7 @@ of the Host machine is used while making connections to systems outside the loca
 
 Arrange the list of commands.
 
-Change the font from comic sans.
+Change the font style, maybe.
 
 Replace old screenshots with new ones.
 
