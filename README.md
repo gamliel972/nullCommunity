@@ -1,4 +1,3 @@
-# linuxnullpuliya
-Linux Basics Session at Null Delhi Puliya
+# The null Community
 
-Created as a reference material for the Null Puliya Session held on 6th May 2017 in Delhi.
+This repository contains Linux basics training content for null sessions across India 
