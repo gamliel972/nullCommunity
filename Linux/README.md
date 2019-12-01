@@ -1,6 +1,6 @@
 # Attacking a Linux Box
 
-This repository contains training content for null sessions across India
+This repository contains hands-on training content on how to attack a Linux box.
 
 ## Getting comfortable with Linux
 
@@ -87,3 +87,5 @@ This repository contains training content for null sessions across India
 5. Email encryption using PGP
 
 ## Exploiting Buffer Overflow
+
+1. 
