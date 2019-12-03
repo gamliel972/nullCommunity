@@ -6,12 +6,11 @@ Basic Input/Output System (BIOS) loads and executes the MBR boot loader
 
     ![Select boot device](../../image/5_select_boot_device.png)
 
-2. Press [`Fn`] + [`F12`] key combination
+2. Press [`Fn`] + [`F12`] key combination to see a list of boot devices to select from
 
     ![BIOS](../../image/5b_select_boot_device.png)
 
 3. Press the key [`B`] on your keyboard to continue booting
 
-4. BIOS is programmed to look at a permanent location on the hard disk, called `boot sector`, to complete its task
-5. Boot sector is the first sector of your hard disk, and is called as MBR (Master Boot Record)
-6. As soon as BIOS finds a valid MBR, it will load the entire content of MBR to RAM, and then further execution is done by the content of MBR.
+4. BIOS is programmed to look at a permanent location on the hard disk, called `boot sector`, to complete its task. Boot sector is the first sector of your hard disk, and is called as MBR (Master Boot Record)
+5. As soon as BIOS finds a valid MBR, it will load the entire content of MBR to RAM, and then further execution is done by the content of MBR.
