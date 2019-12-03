@@ -1,13 +1,13 @@
 # Getting comfortable with Linux basics
 
-configure system
-user profiles
-common environment variables
-different user accounts: superuser, a normal day-to-day user, and a system user
-three different shells in bash (Bourne-again shell): login shell, normal shell, and interactive shell. The login shell reads .bash_profile located in the user home directory or /etc directory, and interactive shells read ∼/.bashrc.
-
-1. The boot process
-2. The runlevels
+1. [System prerequisistes](documentation/prerequisites/README.md)
+2. [6 stages of Linux boot process](documentation/the_boot_process/bios/README.md)
+   1. [Basic Input/Output System (BIOS)](documentation/the_boot_process/bios/README.md)
+   2. [Master Boot Record (MBR)](documentation/the_boot_process/mbr/README.md)
+   3. [Grand Unified Bootloader (GRUB)](documentation/the_boot_process/grub/README.md)
+   4. [Kernel](documentation/the_boot_process/kernel/README.md)
+   5. [Init](documentation/the_boot_process/init/README.md)
+   6. [Runlevel](documentation/the_boot_process/runlevel/README.md)
 3. Getting started with Linux
    1. The terminal
    2. Setting up root password
