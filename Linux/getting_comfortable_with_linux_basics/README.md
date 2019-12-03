@@ -1,6 +1,6 @@
 # Getting comfortable with Linux basics
 
-1. [System prerequisistes](documentation/prerequisites/README.md)
+1. [System prerequisites](documentation/prerequisites/README.md)
 2. [6 stages of Linux boot process](documentation/the_boot_process/bios/README.md)
    1. [Basic Input/Output System (BIOS)](documentation/the_boot_process/bios/README.md)
    2. [Master Boot Record (MBR)](documentation/the_boot_process/mbr/README.md)

@@ -1,9 +1,9 @@
 ## System Prerequisites
 
-1. Download and install Xtreme Download Manager from http://xdman.sourceforge.net/
-2. Download and install VirtualBox from https://www.virtualbox.org/wiki/Downloads
-3. Download Ubuntu VirtualBox image from https://sourceforge.net/projects/osboxes/files/v/vb/55-U-u/19.10/U19_10-VB-64bit.7z/download
-4. Extract `Ubuntu 19.10 (64bit).vdi` file from the downloaded zipped file (refer step #3, above)
+1. Download and install [Xtreme Download Manager](http://xdman.sourceforge.net/)
+2. Download (using XDM) and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+3. Download [Ubuntu 19.10 VirtualBox image](https://sourceforge.net/projects/osboxes/files/v/vb/55-U-u/19.10/U19_10-VB-64bit.7z/download)
+4. Extract `Ubuntu 19.10 (64bit).vdi` file from the downloaded zip file (refer step #3, above)
 5. Open VirtualBox 
 6. Select `Machine` >> `New` 
 7. Give a name to your virtual machine, e.g. `Ubuntu 19.10 (64-bit)`
