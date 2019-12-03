@@ -1,5 +1,11 @@
 # Getting comfortable with Linux basics
 
+configure system
+user profiles
+common environment variables
+different user accounts: superuser, a normal day-to-day user, and a system user
+three different shells in bash (Bourne-again shell): login shell, normal shell, and interactive shell. The login shell reads .bash_profile located in the user home directory or /etc directory, and interactive shells read ∼/.bashrc.
+
 1. The boot process
 2. The runlevels
 3. Getting started with Linux
