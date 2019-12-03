@@ -58,6 +58,27 @@ GRUB has the knowledge of the filesystem. One problem that can motivate use of G
 
         ![Look inside partitions](../image/9_lookInsidePartition.png)
 
+        *Note:* In the current example, a GRUB configuration directory (`grub/`) is visible in `(hd0,msdos2)` partition
+
+ 3. With the home of the GRUB configuration file identified, set the `prefix` and `root` environment variables. These variables identify, respectively, the directory in which `grub.cfg` lives and the partition on which it resides:
+
+        grub> set prefix=(hd0,msdos2)/grub
+        grub> set root=(hd0,msdos2)
+
+    ![GRUB environment variables](../image/10_grub_set_environment_variables.png)
+
+ 4. Load the `normal` module
+
+         grub> insmod normal
+
+     ![Load `normal` module](../image/11_load_normal.png)
+
+ 5. Launch `normal` module to bring up the GRUB menu
+
+         grub> normal
+
+     ![](../image/12_launch_normal.png)
+
 ## 4. Kernel
 
 
