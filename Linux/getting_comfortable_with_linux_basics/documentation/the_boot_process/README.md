@@ -14,3 +14,5 @@
 * https://www.thegeekstuff.com/2011/02/linux-boot-process
 * https://www.slashroot.in/linux-booting-process-step-step-tutorial-understanding-linux-boot-sequence
 * https://www.ibm.com/developerworks/library/l-GRUB2-features/index.html
+* https://unix.stackexchange.com/questions/163346/why-is-it-that-my-initrd-only-has-one-directory-namely-kernel
+* https://manpages.ubuntu.com/manpages/disco/en/man8/unmkinitramfs.8.html
