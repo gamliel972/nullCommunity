@@ -16,3 +16,5 @@
 * https://www.ibm.com/developerworks/library/l-GRUB2-features/index.html
 * https://unix.stackexchange.com/questions/163346/why-is-it-that-my-initrd-only-has-one-directory-namely-kernel
 * https://manpages.ubuntu.com/manpages/disco/en/man8/unmkinitramfs.8.html
+* http://upstart.ubuntu.com/cookbook/#runlevels
+* https://www.2daygeek.com/check-current-runlevel-in-linux/
