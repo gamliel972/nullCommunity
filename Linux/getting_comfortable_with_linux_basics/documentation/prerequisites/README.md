@@ -1,7 +1,10 @@
 ## System Prerequisites
 
 1. Download and install [Xtreme Download Manager](http://xdman.sourceforge.net/)
-2. Download (using XDM) and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+
+    *Note:* XDM will allow faster download of larger files from the Internet
+
+2. Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 3. Download [Ubuntu 19.10 VirtualBox image](https://sourceforge.net/projects/osboxes/files/v/vb/55-U-u/19.10/U19_10-VB-64bit.7z/download)
 4. Extract `Ubuntu 19.10 (64bit).vdi` file from the downloaded zip file (refer step #3, above)
 5. Open VirtualBox 
@@ -16,7 +19,7 @@
 
     ![Select memory size](../image/0b_selectMemory.png)
 
-9. Select the option `Use an existing virtual hard disk file` and add the extracted `.vdi` file (refer step #4, above)
+9.  Select the option `Use an existing virtual hard disk file` and add the extracted `.vdi` file (refer step #4, above)
 
     ![Add VDI](../image/1_add_vdi.png)
 
@@ -31,4 +34,16 @@
 12. Login using the password `osboxes.org`
 
     ![Login](../image/4_login.png)
+
+13. Take a snapshot of your newly created virtual machine 
+    1. Select `Snapshots` from the context menu 
+
+        ![](../image/14a_VB_snapshot.png)
+
+    2. Click on `Take` icon 
+    3. Give a name to your snapshot and click on `OK`
+    
+        ![](../image/14b_VB_snapshot.png)
+
+    *Note:* We are creating this snapshot to revert to a clean state in case the state of the virtual box gets corrupted at any point.
 
