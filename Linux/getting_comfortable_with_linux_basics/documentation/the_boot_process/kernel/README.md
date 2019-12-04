@@ -29,9 +29,3 @@ A linux kernel is responsible for handling Process management, Memory Management
     ![](../../image/20b_unmkinitramfs.png)
 
     *Note:* The `initrd` image file contains folders that are very much similar to our linux directory strucutre. There is `/etc/`, `/lib`, and some necessary commands in `/sbin` etc. Its a small root file system that the kernel loads as a **temporary root file system** before the real root file system is loaded.
-
-6. After Kernel is booted and initialized, it calls first user-space application called as `init`. Kernel executes the `/sbin/init` program. As it is the 1st program to be executed by Linux Kernel, hence, it has the process id (PID) of `1`. Run the following command to check this
-
-        $ ps -ef | grep init
-
-    ![`init` process](../../image/17_init_process.png)
