@@ -87,7 +87,3 @@
    6. Conditional statements
    7. Functions
 5. Email encryption using PGP
-
-## Exploiting Buffer Overflow
-
-1. 
