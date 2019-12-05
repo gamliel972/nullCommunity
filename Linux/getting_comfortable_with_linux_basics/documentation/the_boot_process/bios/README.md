@@ -1,7 +1,7 @@
 ## 1. Basic Input/Output System (BIOS)
 
-Basic Input/Output System (BIOS) loads and executes the MBR boot loader
-
+After a system powers up, the BIOS (*Basic Input/Output System*) does minimal hardware initialization and hands over control to the boot loader
+.
 1. Start [Ubuntu](../../prerequisites/README.md)
 
     ![Select boot device](../../image/5_select_boot_device.png)

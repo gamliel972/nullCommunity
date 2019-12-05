@@ -5,7 +5,7 @@
 3. [Grand Unified Bootloader (GRUB)](grub/README.md)
 4. [Kernel](kernel/README.md)
 5. [Init](init/README.md)
-6. [Runlevel](runlevel/README.md)
+6. [Runlevel or Targets](runlevel/README.md)
 
 ## References
 
@@ -18,3 +18,7 @@
 * https://manpages.ubuntu.com/manpages/disco/en/man8/unmkinitramfs.8.html
 * http://upstart.ubuntu.com/cookbook/#runlevels
 * https://www.2daygeek.com/check-current-runlevel-in-linux/
+* https://unix.stackexchange.com/questions/196166/how-to-find-out-if-a-system-uses-sysv-upstart-or-systemd-initsystem
+* https://www.tecmint.com/find-process-name-pid-number-linux/
+* https://www.digitalocean.com/community/tutorials/how-to-configure-a-linux-service-to-start-automatically-after-a-crash-or-reboot-part-2-reference
+* https://fedoramagazine.org/systemd-getting-a-grip-on-units/

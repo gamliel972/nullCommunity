@@ -1,12 +1,12 @@
 ## 4. Kernel
 
-A linux kernel is responsible for handling Process management, Memory Management, Users, Inter process communication etc.
+A linux kernel is responsible for handling Process management, Memory Management, Users, Inter process communication etc. The kernel loads an initial RAM disk (`initrd`) that loads the system drives and then looks for the root file system.
 
 1. Kernel mounts the root file system as specified in the `root=` attribute in `grub.cnf` file. Check your grub configuration file by running following command
 
         $ cat /boot/grub/grub.cfg | grep root=
 
-    ![Locate `root=` attribute in `grub.cfg`](../../image/15_grub_configuration_root.png)
+    ![Locate root attribute in grub.cfg](../../image/15_grub_configuration_root.png)
 
 2. The kernel image is a compressed image like **zImage** (compressed image, less than 512 KB) or **bzImage** (big compressed image, greater than 512 KB). Can you find your kernel image? Check the contents of `/boot/` folder
 
