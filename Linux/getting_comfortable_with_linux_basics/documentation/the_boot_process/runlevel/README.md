@@ -1,19 +1,48 @@
 ## 6. Runlevel
 
-`systemd` takes over and continues to mount the host’s file systems and start services.
+The current operating state of an operating system is known as a *runlevel*. In `systemd`, **targets** are the new *runlevels*. 
 
-As soon as the kernel executes the init process, it will look at the configuration files to see the default run level.
+The different *targets* are:
 
-A runlevel is a single-byte name for a particular system configuration. Runlevels for Debian and Ubuntu systems are generally as follows:
+1. `poweroff.target` ==> runlevel 0 ==> Shutdown and power off the system]
+2. `rescue.target` ==> runlevel 1 ==> Launch the rescue shell session
+3. `multi-user.target` ==> runlevel 2,3,4 ==> Set the system in non-graphical (console) multi-user system
+4. `graphical.target` ==> runlevel 5 ==> Use a graphical multi-user system with network services
+5. `reboot.target` ==> runlevel 6 ==> Shutdown and reboot the system
 
-0 : System halt.
-1 : Single-User mode.
-2 : Graphical multi-user plus networking (DEFAULT)
-3 : Same as "2", but not used.
-4 : Same as "2", but not used.
-5 : Same as "2", but not used.
-6 : System reboot.
-There are also a few pseudo-runlevels:
+A **systemd target** defines the *state* a system should be in, and the processes and services that should be started to get into that state.
 
-N : The previous runlevel cannot be determined.
-S : Alias for Single-User mode.
+1. View the *default* target of your system
+
+        $ systemctl get-default
+
+    ![Default target](../../image/25_default_target.png)
+
+2. View the *current* runlevel
+
+        $ who -r
+
+    ![Current runlevel](../../image/25b_current_runlevel.png)
+
+3. View the *previous* and *current* runlevels
+
+        $ runlevel
+
+    ![Previous and current runlevels](../../image/25c_previous_and_current_runlevels.png)
+
+    *Note:* In the above output, the letter `N` indicates that the runlevel has not been changed since the system was booted. And, `5` is the current runlevel i.e the system is in GUI mode.
+    <br/>
+
+4. Change the *current* target
+
+        $ sudo systemctl isolate poweroff.target
+
+5. Change the *default* target
+
+        $ sudo systemctl set-default rescue.target
+
+    ![Change default target](../../image/26_change_default_target.png)
+
+    After a system *reboot*, you will see a message indicating that you are in *rescue* mode. The default user in rescue mode will be *root*.
+
+    ![Rescue mode](../../image/26b_rescue_mode.png)
