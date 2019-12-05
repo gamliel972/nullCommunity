@@ -5,7 +5,7 @@
 3. [Grand Unified Bootloader (GRUB)](grub/README.md)
 4. [Kernel](kernel/README.md)
 5. [Init](init/README.md)
-6. [Runlevel or Targets](runlevel/README.md)
+6. [Runlevel](runlevel/README.md)
 
 ## References
 

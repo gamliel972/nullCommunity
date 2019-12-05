@@ -1,5 +1,9 @@
 ## 5. Init
 
+`init` is the first process that starts when a computer boots, making it the parent of all other running processes directly or indirectly.
+
+`systemd` stands for *system daemon*, and it is a modern init system for Linux. 
+
 After the kernel is booted and initialized, it begins the systemd initialization system. The first user-space application, known as `init`, is called. As it is the 1st program to be executed by Linux Kernel, it has the process id (PID) of `1`. 
 
 1. Check the process ID of `init`
@@ -14,7 +18,7 @@ After the kernel is booted and initialized, it begins the systemd initialization
 
     ![](../../image/21_processNameFromPID.png)
 
-3. We found `systemd` init script running in our machine, and hopefully (if you aren't using an older version of Linux operating system), all of us should see a similar output. `systemd` stands for *system daemon*, and a few interesting facts about it are
+3. We found `systemd` init script running in our machine, and hopefully (if you aren't using an older version of Linux operating system), all of us should see a similar output. A few interesting facts about it are:
 
     * `systemd` renames itself to `init` at boot time
     * It works as a *system and service manager* for Linux, and, controls what programs run when a Linux system boots up
