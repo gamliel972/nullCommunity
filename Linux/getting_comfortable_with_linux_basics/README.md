@@ -1,14 +1,14 @@
 # Getting comfortable with Linux basics
 
-1. [System prerequisites](documentation/prerequisites/README.md)
-2. [6 stages of Linux boot process](documentation/the_boot_process/README.md)
-   1. [Basic Input/Output System (BIOS)](documentation/the_boot_process/bios/README.md)
-   2. [Master Boot Record (MBR)](documentation/the_boot_process/mbr/README.md)
-   3. [Grand Unified Bootloader (GRUB)](documentation/the_boot_process/grub/README.md)
-   4. [Kernel](documentation/the_boot_process/kernel/README.md)
-   5. [Init](documentation/the_boot_process/init/README.md)
-   6. [Runlevel](documentation/the_boot_process/runlevel/README.md)
-3. Getting started with Linux
+1. [System prerequisites](documentation/system_prerequisites/README.md)
+2. [6 stages of Linux boot process](documentation/6_stages_of_linux_boot_process/README.md)
+   1. [Basic Input/Output System (BIOS)](documentation/6_stages_of_linux_boot_process/bios/README.md)
+   2. [Master Boot Record (MBR)](documentation/6_stages_of_linux_boot_process/mbr/README.md)
+   3. [Grand Unified Bootloader (GRUB)](documentation/6_stages_of_linux_boot_process/grub/README.md)
+   4. [Kernel](documentation/6_stages_of_linux_boot_process/kernel/README.md)
+   5. [Init](documentation/6_stages_of_linux_boot_process/init/README.md)
+   6. [Runlevel](documentation/6_stages_of_linux_boot_process/runlevel/README.md)
+3. [Getting started with Linux](documentation/getting_started_with_linux/README.md)
    1. The terminal
    2. Setting up root password
    3. Switching users

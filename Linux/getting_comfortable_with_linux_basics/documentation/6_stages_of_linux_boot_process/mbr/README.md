@@ -4,13 +4,13 @@ Master Boot Record (MBR) is located in the 1st sector of the bootable disk, whic
 
 MBR loads and executes the GRUB boot loader.
 
-![GRUB](../../image/6_gnu_grub.png)
+![GRUB](../../image/6_stages_of_linux_boot_process/6_gnu_grub.png)
 
 1. Run following command in a terminal to see the hexdump of MBR:
 
         $ sudo hd -n 512 /dev/sda
 
-    ![Hexdump of MBR](../../image/13_mbr_hexdump.png)
+    ![Hexdump of MBR](../../image/6_stages_of_linux_boot_process/13_mbr_hexdump.png)
 
 2. Notice that the last two bytes are `55` and `aa` respectively - this will be present as the last two bytes of the MBR for all **little-endian systems**, like `x86`. The last two bytes will be *reversed*, i.e., `aa` then `55`, for **big-endian systems**. 
    
