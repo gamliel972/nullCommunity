@@ -38,12 +38,12 @@
 13. Take a snapshot of your newly created virtual machine 
     1. Select `Snapshots` from the context menu 
 
-        ![](../image/system_prerequisites/14a_VB_snapshot.png)
+        ![Select snapshots](../image/system_prerequisites/14a_VB_snapshot.png)
 
     2. Click on `Take` icon 
     3. Give a name to your snapshot and click on `OK`
     
-        ![](../image/system_prerequisites/14b_VB_snapshot.png)
+        ![Name your snapshot](../image/system_prerequisites/14b_VB_snapshot.png)
 
     *Note:* We are creating this snapshot to revert to a clean state in case the state of the virtual box gets corrupted at any point.
 
