@@ -4,9 +4,7 @@ On Linux, packages are downloaded and installed from online repositories by a pa
 
 1. Advanced Packaging Tool (APT)
 
-    The `APT` package, providing the `apt` command-line management tool.
-
-    `apt` is a command which uses the advanced packaging tool to interact with the operating system’s package system.
+    The `APT` package provides the `apt` command-line management tool. `apt` is a command which uses the advanced packaging tool to interact with the operating system’s package system.
 
     1. To update the database of available packages, i.e., to allow system to find if a newer version of software is available, run following command
 
