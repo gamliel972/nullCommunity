@@ -1,38 +1,8 @@
 # Getting started with Linux
 
-1. GNU/Linux
-2. Software Repositories
-
-
-## Package Management
-
-On Linux, packages are downloaded and installed from online repositories by a package manager.
-
-https://www.linode.com/docs/tools-reference/linux-package-management/#advanced-packaging-tool-apt
-https://devconnected.com/apt-package-manager-on-linux-explained/
-
-1. Advanced Packaging Tool (APT)
-
-    `apt-get` is a command which uses the advanced packaging tool to interact with the operating system’s package system.
-
-2. APT Cache
-
-3. Using dpkg
-
-4. Updating (upgrading) your local packages
-
-5. Installing new packages
-
-   1. From Ubuntu repository
-   2. From .deb
-   3. From .tar
-   4. From PPA
-
-6. Uninstalling packages
-
-7. Purging packages
-
-8. Removing dangling dependencies
+1. [GNU/Linux](gnu_linux/README.md)
+2. [Software Repositories](software_repositories/README.md)
+3. [Package Management](package_management/README.md)
 
 
 
@@ -40,9 +10,8 @@ https://devconnected.com/apt-package-manager-on-linux-explained/
 
 
 
-
-
-9.  The terminal
+## WIP
+4.  The terminal
    1. Setting up root password
    2. Switching users
    3. Disabling root account
@@ -111,7 +80,7 @@ https://devconnected.com/apt-package-manager-on-linux-explained/
        2.  zip/unzip
        3.  ccrypt
        4.  gpg
-10. Shell
+5.  Shell
    18. Different types of shells
    19. Declaring variables
    20. Using quotes
@@ -119,7 +88,7 @@ https://devconnected.com/apt-package-manager-on-linux-explained/
    22. Parameter variables
    23. Conditional statements
    24. Functions
-11. Email encryption using PGP
+6.  Email encryption using PGP
 
 
 ## References
