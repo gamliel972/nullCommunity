@@ -16,7 +16,13 @@
 
     ![Kernel name](../image/getting_started_with_linux/2_kernel_name.png)
 
-3. Follow [this link](https://www.geeksforgeeks.org/uname-command-in-linux-with-examples/) and try other available `uname` options.
+3. Print all system information. Follow [this link](https://stackoverflow.com/questions/6943803/understanding-uname-output) to understand the output.
+   
+        $uname -a
+
+    ![Print all system information](../image/getting_started_with_linux/3_all_sys_info.png)
+
+4. Follow [this link](https://www.geeksforgeeks.org/uname-command-in-linux-with-examples/) and try other available `uname` options.
 
 
 ## Linux Software Repositories
