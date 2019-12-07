@@ -2,12 +2,21 @@
 
 ## GNU/Linux
 
-**GNU**, which stands for *GNU Not Unix*, was designed to be an open source operating system that is backwards compatible with Unix operating systems. GNU packages are packages designed to be shared, modified and run wherever you want, for whatever purpose.
+**GNU** stands for *GNU Not Unix*. It was designed to be an open source *operating system* that is backwards compatible with Unix operating systems. GNU packages are packages designed to be shared, modified and run wherever you want, for whatever purpose.
 
-1. Print the operating system
+1. Find out what operating system is running in your machine
 
         $ uname -o
-        GNU/Linux
+
+    ![OS name](../image/getting_started_with_linux/1_uname_o.png)
+
+2. Print the kernel name
+
+        $ uname -s
+
+    ![Kernel name](../image/getting_started_with_linux/2_kernel_name.png)
+
+3. Follow [this link](https://www.geeksforgeeks.org/uname-command-in-linux-with-examples/) and try other available `uname` options.
 
 
 ## Linux Software Repositories
@@ -139,4 +148,4 @@ https://devconnected.com/apt-package-manager-on-linux-explained/
 * https://devconnected.com/apt-package-manager-on-linux-explained/
 * https://www.linode.com/docs/tools-reference/linux-package-management/#advanced-packaging-tool-apt
 * https://devconnected.com/apt-package-manager-on-linux-explained/
-* 
+* https://www.geeksforgeeks.org/uname-command-in-linux-with-examples/
