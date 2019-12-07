@@ -3,6 +3,7 @@
 1. [GNU/Linux](gnu_linux/README.md)
 2. [Software Repositories](software_repositories/README.md)
 3. [Package Management](package_management/README.md)
+4. [Useful Commands](http://pwnwiki.io/#!presence/linux/find_files.md)
 
 
 
