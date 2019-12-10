@@ -1,38 +1,45 @@
-## Package Management
+## Package Management <!-- omit toc -->
 
 On Linux, packages are downloaded and installed from online repositories by a package manager.
 
-1. Advanced Packaging Tool (APT)
+- [Package Management](#package-management)
+  - [Advanced Packaging Tool (APT)](#advanced-packaging-tool-apt)
+  - [Installing new packages](#installing-new-packages)
+  - [Uninstalling packages](#uninstalling-packages)
+  - [Purging packages](#purging-packages)
+  - [Removing dangling dependencies](#removing-dangling-dependencies)
 
-    The `APT` package provides the `apt` command-line management tool. `apt` is a command which uses the advanced packaging tool to interact with the operating system’s package system.
+### Advanced Packaging Tool (APT)
 
-    1. To update the database of available packages, i.e., to allow system to find if a newer version of software is available, run following command
+The `APT` package provides the `apt` command-line management tool. `apt` is a command which uses the advanced packaging tool to interact with the operating system’s package system.
 
-            $ sudo apt update
+1. To update the database of available packages, i.e., to allow system to find if a newer version of software is available, run following command
 
-    2. To upgrade the installed packages to their newer versions, run following command
+        $ sudo apt update
 
-            $ sudo apt upgrade -y
+2. To upgrade the installed packages to their newer versions, run following command
 
-    3. To upgrade the system as a whole, i.e., to upgrade packages with auto-handling of dependencies which might involve removing currently installed packages if needed, run following command
+        $ sudo apt upgrade -y
 
-            $ apt full-upgrade
+3. To upgrade the system as a whole, i.e., to upgrade packages with auto-handling of dependencies which might involve removing currently installed packages if needed, run following command
 
-    4. View all `apt` command line options
+        $ apt full-upgrade
 
-            $ apt -h
+4. View all `apt` command line options
 
-        ![apt help](../../image/getting_started_with_linux/6_apt_help.png)
+        $ apt -h
 
-2. Installing new packages
+    ![apt help](../../image/getting_started_with_linux/6_apt_help.png)
 
-   1. From Ubuntu repository
-   2. From .deb
-   3. From .tar
-   4. From PPA
+### Installing new packages
 
-3. Uninstalling packages
+1. From Ubuntu repository
+2. From .deb
+3. From .tar
+4. From PPA
 
-4. Purging packages
+### Uninstalling packages
 
-5. Removing dangling dependencies
+### Purging packages
+
+### Removing dangling dependencies
