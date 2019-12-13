@@ -6,8 +6,7 @@ On Linux, packages are downloaded and installed from online repositories by a pa
 - [View installed packages](#view-installed-packages)
 - [Find package](#find-package)
 - [Install new package](#install-new-package)
-- [Uninstall package](#uninstall-package)
-- [Purge package](#purge-package)
+- [Remove package](#remove-package)
 - [Remove dangling dependencies](#remove-dangling-dependencies)
 
 ### Advanced Packaging Tool (APT)
@@ -72,11 +71,11 @@ The `APT` package provides the `apt` command-line management tool. `apt` is a co
 1. From *Ubuntu* repository
 
         $ apt install <PACKAGE_NAME>
-        $ apt install nano
+        $ apt install firefox
 
 2. From **.deb**
 
-        $ sudo dpkg -i file_name.deb
+        $ apt install </path/to/deb/file/debfile.deb>
 
 3. From **.tar**
 
@@ -106,9 +105,16 @@ The `APT` package provides the `apt` command-line management tool. `apt` is a co
 6. From Personal Package Archive
 
         $ sudo apt-add-repository ppa:libreoffice/libreoffice-4-0
+        $ sudo apt update
+        $ sudo apt-get install <PACKAGE_NAME>
+        $ sudo apt-get install libreoffice
 
-### Uninstall package
+### Remove package
 
-### Purge package
+    $ apt remove <PACKAGE_NAME>
+    $ apt remove firefox
 
 ### Remove dangling dependencies
+
+    $ apt autoremove
+    $ apt remove firefox --auto-remove
