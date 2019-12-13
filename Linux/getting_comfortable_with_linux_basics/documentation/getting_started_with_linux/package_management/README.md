@@ -1,4 +1,4 @@
-## Package Management <!-- omit in toc -->
+# Package Management <!-- omit in toc -->
 
 - [Advanced Packaging Tool (APT)](#advanced-packaging-tool-apt)
 - [View installed packages](#view-installed-packages)
@@ -9,7 +9,7 @@
 
 On Linux, packages are downloaded and installed from online repositories by a package manager.
 
-### Advanced Packaging Tool (APT)
+## Advanced Packaging Tool (APT)
 
 The `APT` package provides the `apt` command-line management tool. `apt` is a command which uses the advanced packaging tool to interact with the operating system’s package system.
 
@@ -31,7 +31,7 @@ The `APT` package provides the `apt` command-line management tool. `apt` is a co
 
     ![apt help](../../image/getting_started_with_linux/6_apt_help.png)
 
-### View installed packages
+## View installed packages
 
 1. List all installed packages 
    
@@ -55,7 +55,7 @@ The `APT` package provides the `apt` command-line management tool. `apt` is a co
         $ dpkg -S <FILE_NAME> 
         $ dpkg -S /etc/host.conf 
 
-### Find package
+## Find package
 
 1. Search for a package by keyword
 
@@ -66,7 +66,7 @@ The `APT` package provides the `apt` command-line management tool. `apt` is a co
 
         $ apt info chameleon-cursor-theme
 
-### Install new package
+## Install new package
 
 1. From *Ubuntu* repository
 
@@ -109,12 +109,12 @@ The `APT` package provides the `apt` command-line management tool. `apt` is a co
         $ sudo apt-get install <PACKAGE_NAME>
         $ sudo apt-get install libreoffice
 
-### Remove package
+## Remove package
 
     $ apt remove <PACKAGE_NAME>
     $ apt remove firefox
 
-### Remove dangling dependencies
+## Remove dangling dependencies
 
     $ apt autoremove
     $ apt remove firefox --auto-remove

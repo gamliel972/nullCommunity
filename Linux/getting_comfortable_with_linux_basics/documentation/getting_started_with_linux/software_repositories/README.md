@@ -1,4 +1,4 @@
-## Software Repositories <!-- omit in toc -->
+# Software Repositories <!-- omit in toc -->
 
 - [View default repositories](#view-default-repositories)
 - [View custom repositories](#view-custom-repositories)
@@ -6,7 +6,7 @@
 
 On Linux, software is distributed through software repositories. Sometimes, the default repository might not be sufficient, and we might have to add additional repositories to access additional functionality.
 
-### View default repositories
+## View default repositories
 
 By default, repositories are stored into the `/etc/apt` folder.
 
@@ -21,7 +21,7 @@ By default, repositories are stored into the `/etc/apt` folder.
     * **Universe** – community-maintained, open-source software
     * **Multiverse** – unsupported, closed-source and patent-encumbered software
 
-### View custom repositories
+## View custom repositories
 
 * Locate the custom repositories configured for your distribution by viewing the contents of **sources.list.d** folder
 
@@ -34,7 +34,7 @@ By default, repositories are stored into the `/etc/apt` folder.
     * New repositories could be added by putting a file with a unique name and the same format as `/etc/apt/sources.list` into the **folder** `/etc/apt/sources.list.d`.
     * Names of files in `/etc/sources.list.d` must end in `.list`
     
-### Add a custom APT repository
+## Add a custom APT repository
 
 1. Create a file with `.list` extension in `/etc/apt/sources.list.d` folder
 
