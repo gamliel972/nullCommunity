@@ -1,13 +1,14 @@
-## Package Management <!-- omit toc -->
+## Package Management <!-- omit in toc -->
 
 On Linux, packages are downloaded and installed from online repositories by a package manager.
 
-- [Package Management](#package-management)
-  - [Advanced Packaging Tool (APT)](#advanced-packaging-tool-apt)
-  - [Installing new packages](#installing-new-packages)
-  - [Uninstalling packages](#uninstalling-packages)
-  - [Purging packages](#purging-packages)
-  - [Removing dangling dependencies](#removing-dangling-dependencies)
+- [Advanced Packaging Tool (APT)](#advanced-packaging-tool-apt)
+- [View installed packages](#view-installed-packages)
+- [Find package](#find-package)
+- [Install new package](#install-new-package)
+- [Uninstall package](#uninstall-package)
+- [Purge package](#purge-package)
+- [Remove dangling dependencies](#remove-dangling-dependencies)
 
 ### Advanced Packaging Tool (APT)
 
@@ -31,15 +32,83 @@ The `APT` package provides the `apt` command-line management tool. `apt` is a co
 
     ![apt help](../../image/getting_started_with_linux/6_apt_help.png)
 
-### Installing new packages
+### View installed packages
 
-1. From Ubuntu repository
-2. From .deb
-3. From .tar
-4. From PPA
+1. List all installed packages 
+   
+        $ apt list --installed
+        $ dpkg -l
 
-### Uninstalling packages
+2. Check if a specific package is installed or not
 
-### Purging packages
+        $ dpkg -s <PACKAGE_NAME>
+        $ dpkg -s nano
 
-### Removing dangling dependencies
+    ![Check if package is installed](../../image/getting_started_with_linux/7_pm_dpkg_s.png)
+
+3. List all files installed by a specific package
+
+        $ dpkg -L <PACKAGE_NAME>
+        $ dpkg -L nano
+
+4. Find out which package installed a specific file
+
+        $ dpkg -S <FILE_NAME> 
+        $ dpkg -S /etc/host.conf 
+
+### Find package
+
+1. Search for a package by keyword
+
+        $ apt search <SEARCH_TERM>
+        $ apt search cats
+
+2. See detailed information about a package
+
+        $ apt info chameleon-cursor-theme
+
+### Install new package
+
+1. From *Ubuntu* repository
+
+        $ apt install <PACKAGE_NAME>
+        $ apt install nano
+
+2. From **.deb**
+
+        $ sudo dpkg -i file_name.deb
+
+3. From **.tar**
+
+    1. Extract the `.tar` file
+
+            $ tar xvf <PACKAGE_NAME.tar>
+
+    2. Go into the extracted folder
+
+            $ cd <PACKAGE_NAME>
+
+    3. Run following commands
+
+            $ ./configure
+            $ make && make install
+
+    *Note:* Most packages get installed in this manner, if it does not then all such packages come with a README or/and INSTALL file that contains all the additional instructions one needs to successfully install the application.
+
+4. From **.tar.gz** 
+
+        $ tar xvfz <PACKAGE_NAME>.tar.gz
+
+5. From **.tar.bz2**
+
+        $ tar xvfj <PACKAGE_NAME>.tar.bz2
+
+6. From Personal Package Archive
+
+        $ sudo apt-add-repository ppa:libreoffice/libreoffice-4-0
+
+### Uninstall package
+
+### Purge package
+
+### Remove dangling dependencies

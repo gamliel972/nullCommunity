@@ -101,3 +101,6 @@
 * https://askubuntu.com/questions/124017/how-do-i-restore-the-default-repositories
 * https://stackoverflow.com/questions/26020917/what-is-the-function-of-etc-apt-sources-list-d
 * https://itsfoss.com/apt-vs-apt-get-difference/
+* https://wiki.debian.org/DebianPackageManagement
+* https://itsfoss.com/ubuntu-repositories/
+* 
