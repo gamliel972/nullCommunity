@@ -5,9 +5,6 @@
 3. [Package Management](package_management/README.md)
 4. [Workspaces](workspaces/README.md)
 5. [Terminator - The Terminal Emulator](terminator/README.md)
-   1. https://gnometerminator.blogspot.com/p/introduction.html
-   2. https://medium.com/@andythedev/getting-the-most-out-of-your-linux-terminal-82099c516058
-   3. https://hackernoon.com/10-basic-tips-on-working-fast-in-unix-or-linux-terminal-5746ae42d277
 6. [Virtual Terminal](https://www.guru99.com/unix-virtual-terminal.html)
 7. [VI Editor](https://www.guru99.com/the-vi-editor.html)
 8. [Shell & Shell Scripting](https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/)

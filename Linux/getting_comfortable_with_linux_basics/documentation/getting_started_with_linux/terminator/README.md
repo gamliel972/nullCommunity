@@ -4,6 +4,8 @@
 - [Key Commands](#key-commands)
 - [References](#references)
 
+Terminator is a terminal emulator which supports tabs and multiple resizable terminal panels in one window.
+
 ## Installation
 
 1. Locate the `terminator` package
