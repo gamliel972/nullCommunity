@@ -1,10 +1,10 @@
 ## Software Repositories <!-- omit in toc -->
 
-On Linux, software is distributed through software repositories. Sometimes, the default repository might not be sufficient, and we might have to add additional repositories to access additional functionality.
-
 - [View default repositories](#view-default-repositories)
 - [View custom repositories](#view-custom-repositories)
 - [Add a custom APT repository](#add-a-custom-apt-repository)
+
+On Linux, software is distributed through software repositories. Sometimes, the default repository might not be sufficient, and we might have to add additional repositories to access additional functionality.
 
 ### View default repositories
 

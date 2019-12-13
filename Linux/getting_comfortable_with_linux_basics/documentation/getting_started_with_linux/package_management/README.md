@@ -1,13 +1,13 @@
 ## Package Management <!-- omit in toc -->
 
-On Linux, packages are downloaded and installed from online repositories by a package manager.
-
 - [Advanced Packaging Tool (APT)](#advanced-packaging-tool-apt)
 - [View installed packages](#view-installed-packages)
 - [Find package](#find-package)
 - [Install new package](#install-new-package)
 - [Remove package](#remove-package)
 - [Remove dangling dependencies](#remove-dangling-dependencies)
+
+On Linux, packages are downloaded and installed from online repositories by a package manager.
 
 ### Advanced Packaging Tool (APT)
 
