@@ -8,6 +8,9 @@
 
     ![Workspace selector](../../image/getting_started_with_linux/9_workspace_selector.png)
 
+    ![Drag-n-drop into workspace selector](../../image/getting_started_with_linux/9b_workspace_selector.png)
+
+
 3. Press `[SUPER]` + `[PgUp]`/`[PgDn]` key combination to switch between workspaces 
 
 ## References

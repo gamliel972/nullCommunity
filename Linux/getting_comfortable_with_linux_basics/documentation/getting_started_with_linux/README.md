@@ -3,7 +3,7 @@
 1. [GNU/Linux](gnu_linux/README.md)
 2. [Software Repositories](software_repositories/README.md)
 3. [Package Management](package_management/README.md)
-4. [Workspaces](https://www.pcworld.com/article/2894354/dont-forget-one-of-linuxs-best-features-how-to-use-multiple-workspaces.html)
+4. [Workspaces](workspaces/README.md)
 5. [Terminator - The Terminal Emulator](https://gnometerminator.blogspot.com/p/introduction.html)
    1. sudo apt-get install terminator
    2. https://medium.com/@andythedev/getting-the-most-out-of-your-linux-terminal-82099c516058

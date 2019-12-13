@@ -1,0 +1,2 @@
+# Terminator - The Terminal Emulator
+

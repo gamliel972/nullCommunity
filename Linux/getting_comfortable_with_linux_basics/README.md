@@ -12,12 +12,13 @@
    1. [GNU/Linux](documentation/getting_started_with_linux/gnu_linux/README.md)
    2. [Software Repositories](documentation/getting_started_with_linux/software_repositories/README.md)
    3. [Package Management](documentation/getting_started_with_linux/package_management/README.md)
-   4. [Workspaces](https://www.pcworld.com/article/2894354/dont-forget-one-of-linuxs-best-features-how-to-use-multiple-workspaces.html)
+   4. [Workspaces](documentation/getting_started_with_linux/workspaces/README.md)
 
-   5. [Terminator - The Terminal Emulator](https://gnometerminator.blogspot.com/p/introduction.html)
-      1. sudo apt-get install terminator
-      2. https://medium.com/@andythedev/getting-the-most-out-of-your-linux-terminal-82099c516058
-      3. https://hackernoon.com/10-basic-tips-on-working-fast-in-unix-or-linux-terminal-5746ae42d277
+   5. [Terminator - The Terminal Emulator](documentation/getting_started_with_linux/package_management/README.md)
+      1. https://gnometerminator.blogspot.com/p/introduction.html
+      2. sudo apt-get install terminator
+      3. https://medium.com/@andythedev/getting-the-most-out-of-your-linux-terminal-82099c516058
+      4. https://hackernoon.com/10-basic-tips-on-working-fast-in-unix-or-linux-terminal-5746ae42d277
    6. [Virtual Terminal](https://www.guru99.com/unix-virtual-terminal.html)
    7. [VI Editor](https://www.guru99.com/the-vi-editor.html)
    8. [Shell & Shell Scripting](https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/)
