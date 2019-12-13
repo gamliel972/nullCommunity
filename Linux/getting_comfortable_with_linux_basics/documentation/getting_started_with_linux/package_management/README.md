@@ -4,7 +4,7 @@
 - [View installed packages](#view-installed-packages)
 - [Find package](#find-package)
 - [Install new package](#install-new-package)
-- [Remove package](#remove-package)
+- [Uninstall package](#uninstall-package)
 - [Remove dangling dependencies](#remove-dangling-dependencies)
 
 On Linux, packages are downloaded and installed from online repositories by a package manager.
@@ -109,10 +109,17 @@ The `APT` package provides the `apt` command-line management tool. `apt` is a co
         $ sudo apt-get install <PACKAGE_NAME>
         $ sudo apt-get install libreoffice
 
-## Remove package
+## Uninstall package
 
-    $ apt remove <PACKAGE_NAME>
-    $ apt remove firefox
+1. To remove the binaries associated with a package
+
+        $ apt remove <PACKAGE_NAME>
+        $ apt remove firefox
+
+2. To remove everything related to a package including the configuration files (useful when you have messed up with the configuration of a program)
+
+        $ apt purge <PACKAGE_NAME>
+        $ apt purge firefox
 
 ## Remove dangling dependencies
 
