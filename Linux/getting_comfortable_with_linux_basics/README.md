@@ -40,36 +40,36 @@
          9. https://likegeeks.com/shell-scripting-awesome-guide-part4/
    9. [Sudo](https://www.poftut.com/linux-sudo-command-tutorial-with-examples-to-get-root-privileges/)
    10. [User Administration](https://www.guru99.com/linux-admin.html)
-      1. Setting up root password
-      2. Switching users
-      3. Disabling root account
-      4. Creating a User
-      5. Deleting, disabling account
-      6. Adding users to the usergroups
-      7. Finger
-      8. Linux/Unix User Management Commands
+       1.  Setting up root password
+       2.  Switching users
+       3.  Disabling root account
+       4.  Creating a User
+       5.  Deleting, disabling account
+       6.  Adding users to the usergroups
+       7.  Finger
+       8.  Linux/Unix User Management Commands
    11. [System Administration]()
-      9. https://www.linode.com/docs/tools-reference/linux-system-administration-basics/
-      10. https://opensource.com/article/17/7/20-sysadmin-commands
-      11. https://www.tecmint.com/useful-linux-commands-for-system-administrators/
-      12. https://www.javatpoint.com/linux-system-admin-commands
-      13. https://www.getfilecloud.com/blog/2014/01/25-linux-commands-for-system-administrators/
-      14. https://www.cyberciti.biz/tips/top-linux-monitoring-tools.html
-      15. https://www.dell.com/support/article/in/en/inbsd1/sln289410/introduction-to-basic-troubleshooting-commands-within-ubuntu-linux?lang=en
-      16. [Environment Variables](https://www.guru99.com/linux-environment-variables.html)
+       1.  https://www.linode.com/docs/tools-reference/linux-system-administration-basics/
+       2.  https://opensource.com/article/17/7/20-sysadmin-commands
+       3.  https://www.tecmint.com/useful-linux-commands-for-system-administrators/
+       4.  https://www.javatpoint.com/linux-system-admin-commands
+       5.  https://www.getfilecloud.com/blog/2014/01/25-linux-commands-for-system-administrators/
+       6.  https://www.cyberciti.biz/tips/top-linux-monitoring-tools.html
+       7.  https://www.dell.com/support/article/in/en/inbsd1/sln289410/introduction-to-basic-troubleshooting-commands-within-ubuntu-linux?lang=en
+       8.  [Environment Variables](https://www.guru99.com/linux-environment-variables.html)
    12. [File Management](https://www.guru99.com/must-know-linux-commands.html#16)
-       1. http://en.tldp.org/LDP/sag/html/sag.html#HD-MOUNT-ROOT 
-       2. [Basic Commands](https://www.guru99.com/terminal-file-manager.html)
-       3. [File permissions](https://www.guru99.com/file-permissions.html)
-           1. Change mode
-           2. Change group
-           3. Change owner
-           4. SUID
-           5. SGID
-           6. Sticky bits
-           7. du
-           8. df
-           9. free
+       1.  http://en.tldp.org/LDP/sag/html/sag.html#HD-MOUNT-ROOT 
+       2.  [Basic Commands](https://www.guru99.com/terminal-file-manager.html)
+       3.  [File permissions](https://www.guru99.com/file-permissions.html)
+           1.  Change mode
+           2.  Change group
+           3.  Change owner
+           4.  SUID
+           5.  SGID
+           6.  Sticky bits
+           7.  du
+           8.  df
+           9.  free
            10. date
            11. finger
            12. head
@@ -78,13 +78,13 @@
            15. grep
            16. cut
        4.  [Regular Expression](https://www.guru99.com/linux-regular-expressions.html)
-       5. Archiving, compressing and encrypting files
+       5.  Archiving, compressing and encrypting files
            1.  tar
            2.  zip/unzip
            3.  ccrypt
            4.  gpg
-       6. Running .exe files with Wine
-       7. [Pipe, Grep and Sort](https://www.guru99.com/linux-pipe-grep.html#2) 
+       6.  Running .exe files with Wine
+       7.  [Pipe, Grep and Sort](https://www.guru99.com/linux-pipe-grep.html#2) 
    13. [Process Management](https://www.guru99.com/managing-processes-in-linux.html)
        1.  https://www.howtogeek.com/107217/how-to-manage-processes-from-the-linux-terminal-10-commands-you-need-to-know/
        2.  https://opensource.com/article/18/9/linux-commands-process-management
