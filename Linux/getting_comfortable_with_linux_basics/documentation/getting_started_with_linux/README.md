@@ -7,15 +7,16 @@
 5. [Terminator - The Terminal Emulator](terminator/README.md)
 6. [Virtual Terminal](virtual_terminal/README.md)
 7. [Vim - The Text Editor](vim_text_editor/README.md)
-8. [Shell](https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/)
-   1. Different types of shells
-   2. Declaring variables
-   3. Using quotes
-   4. [Environment variables](https://www.guru99.com/linux-environment-variables.html)
-   5. Parameter variables
-   6. Conditional statements
-   7. Functions
-   8. [Redirection](https://www.guru99.com/linux-redirection.html)
+8. [BASH Shell](bash_shell/README.md)
+   1. https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/
+   2. Different types of shells
+   3. Declaring variables
+   4. Using quotes
+   5. [Environment variables](https://www.guru99.com/linux-environment-variables.html)
+   6. Parameter variables
+   7. Conditional statements
+   8. Functions
+   9. [Redirection](https://www.guru99.com/linux-redirection.html)
       1. Output Redirection
       2. Input redirection
       3. File Descriptors (FD)
