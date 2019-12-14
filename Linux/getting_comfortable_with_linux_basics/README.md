@@ -18,8 +18,9 @@
    7. [Virtual Terminal](documentation/getting_started_with_linux/virtual_terminal/README.md)
    8. [Vim - The Text Editor](documentation/getting_started_with_linux/vim_text_editor/README.md)
    9. [BASH Shell](documentation/getting_started_with_linux/bash_shell/README.md)
-   10. [Sudo](https://www.poftut.com/linux-sudo-command-tutorial-with-examples-to-get-root-privileges/)
-   11. [User Administration](https://www.guru99.com/linux-admin.html)
+   10. [Redirection]()
+   11. [Sudo](https://www.poftut.com/linux-sudo-command-tutorial-with-examples-to-get-root-privileges/)
+   12. [User Administration](https://www.guru99.com/linux-admin.html)
        1.  Setting up root password
        2.  Switching users
        3.  Disabling root account
@@ -28,7 +29,7 @@
        6.  Adding users to the usergroups
        7.  Finger
        8.  Linux/Unix User Management Commands
-   12. [System Administration]()
+   13. [System Administration]()
        1.  https://www.linode.com/docs/tools-reference/linux-system-administration-basics/
        2.  https://opensource.com/article/17/7/20-sysadmin-commands
        3.  https://www.tecmint.com/useful-linux-commands-for-system-administrators/
@@ -37,7 +38,7 @@
        6.  https://www.cyberciti.biz/tips/top-linux-monitoring-tools.html
        7.  https://www.dell.com/support/article/in/en/inbsd1/sln289410/introduction-to-basic-troubleshooting-commands-within-ubuntu-linux?lang=en
        8.  [Environment Variables](https://www.guru99.com/linux-environment-variables.html)
-   13. [File Management](https://www.guru99.com/must-know-linux-commands.html#16)
+   14. [File Management](https://www.guru99.com/must-know-linux-commands.html#16)
        1.  http://en.tldp.org/LDP/sag/html/sag.html#HD-MOUNT-ROOT 
        2.  [Basic Commands](https://www.guru99.com/terminal-file-manager.html)
        3.  [File permissions](https://www.guru99.com/file-permissions.html)
@@ -65,12 +66,12 @@
            4.  gpg
        6.  Running .exe files with Wine
        7.  [Pipe, Grep and Sort](https://www.guru99.com/linux-pipe-grep.html#2) 
-   14. [Process Management](https://www.guru99.com/managing-processes-in-linux.html)
+   15. [Process Management](https://www.guru99.com/managing-processes-in-linux.html)
        1.  https://www.howtogeek.com/107217/how-to-manage-processes-from-the-linux-terminal-10-commands-you-need-to-know/
        2.  https://opensource.com/article/18/9/linux-commands-process-management
        3.  https://www.tecmint.com/linux-process-management/
        4.  https://www.fastwebhost.in/blog/top-process-management-commands-in-linux/
-   15. [Device Administration](https://www.digitalocean.com/community/tutorials/how-to-perform-basic-administration-tasks-for-storage-devices-in-linux)
+   16. [Device Administration](https://www.digitalocean.com/community/tutorials/how-to-perform-basic-administration-tasks-for-storage-devices-in-linux)
        1.  Managing device partitions
           1. fdisk
           2.  mount
@@ -82,9 +83,9 @@
           7.  /dev/sda
           8.  /dev/tty
           9.  /dev/pts
-   16. [Communication Commands](https://www.guru99.com/communication-in-linux.html)
+   17. [Communication Commands](https://www.guru99.com/communication-in-linux.html)
        1.  SSH
        2.  Ping
        3.  FTP
        4.  Telnet
-   17. [Keyboard shortcuts](https://www.techrepublic.com/blog/10-things/10-keyboard-shortcuts-to-improve-your-linux-experience/)
+   18. [Keyboard shortcuts](https://www.techrepublic.com/blog/10-things/10-keyboard-shortcuts-to-improve-your-linux-experience/)
