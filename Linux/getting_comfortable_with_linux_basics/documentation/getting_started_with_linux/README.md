@@ -8,26 +8,18 @@
 6. [Virtual Terminal](virtual_terminal/README.md)
 7. [Vim - The Text Editor](vim_text_editor/README.md)
 8. [BASH Shell](bash_shell/README.md)
-   1. https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/
-   2. Different types of shells
-   3. Declaring variables
-   4. Using quotes
-   5. [Environment variables](https://www.guru99.com/linux-environment-variables.html)
-   6. Parameter variables
-   7. Conditional statements
-   8. Functions
-   9. [Redirection](https://www.guru99.com/linux-redirection.html)
-      1. Output Redirection
-      2. Input redirection
-      3. File Descriptors (FD)
-      4. Error Redirection
-      5. https://www.tutorialspoint.com/unix/unix-io-redirections.htm
-      6. https://thoughtbot.com/blog/input-output-redirection-in-the-shell
-      7. https://www.tecmint.com/linux-io-input-output-redirection-operators/
-      8. https://www.linuxtechi.com/standard-input-output-error-in-linux/
-      9. https://likegeeks.com/shell-scripting-awesome-guide-part4/
-9. [Sudo](https://www.poftut.com/linux-sudo-command-tutorial-with-examples-to-get-root-privileges/)
-10. [User Administration](https://www.guru99.com/linux-admin.html)
+9. [Redirection](https://www.guru99.com/linux-redirection.html)
+    1. Output Redirection
+    2. Input redirection
+    3. File Descriptors (FD)
+    4. Error Redirection
+    5. https://www.tutorialspoint.com/unix/unix-io-redirections.htm
+    6. https://thoughtbot.com/blog/input-output-redirection-in-the-shell
+    7. https://www.tecmint.com/linux-io-input-output-redirection-operators/
+    8. https://www.linuxtechi.com/standard-input-output-error-in-linux/
+    9. https://likegeeks.com/shell-scripting-awesome-guide-part4/
+10. [Sudo](https://www.poftut.com/linux-sudo-command-tutorial-with-examples-to-get-root-privileges/)
+11. [User Administration](https://www.guru99.com/linux-admin.html)
     1.  Setting up root password
     2.  Switching users
     3.  Disabling root account
@@ -36,7 +28,7 @@
     6.  Adding users to the usergroups
     7.  Finger
     8.  Linux/Unix User Management Commands
-11. [System Administration]()
+12. [System Administration]()
     1.  https://www.linode.com/docs/tools-reference/linux-system-administration-basics/
     2.  https://opensource.com/article/17/7/20-sysadmin-commands
     3.  https://www.tecmint.com/useful-linux-commands-for-system-administrators/
@@ -45,7 +37,7 @@
     6.  https://www.cyberciti.biz/tips/top-linux-monitoring-tools.html
     7.  https://www.dell.com/support/article/in/en/inbsd1/sln289410/introduction-to-basic-troubleshooting-commands-within-ubuntu-linux?lang=en
     8.  [Environment Variables](https://www.guru99.com/linux-environment-variables.html)
-12. [File Management](https://www.guru99.com/must-know-linux-commands.html#16)
+13. [File Management](https://www.guru99.com/must-know-linux-commands.html#16)
     1.  http://en.tldp.org/LDP/sag/html/sag.html#HD-MOUNT-ROOT 
     2.  [Basic Commands](https://www.guru99.com/terminal-file-manager.html)
     3.  [Useful Commands](http://pwnwiki.io/#!presence/linux/find_files.md)
@@ -74,12 +66,12 @@
         4.  gpg
     7.  Running .exe files with Wine
     8.  [Pipe, Grep and Sort](https://www.guru99.com/linux-pipe-grep.html#2) 
-13. [Process Management](https://www.guru99.com/managing-processes-in-linux.html)
+14. [Process Management](https://www.guru99.com/managing-processes-in-linux.html)
     1.  https://www.howtogeek.com/107217/how-to-manage-processes-from-the-linux-terminal-10-commands-you-need-to-know/
     2.  https://opensource.com/article/18/9/linux-commands-process-management
     3.  https://www.tecmint.com/linux-process-management/
     4.  https://www.fastwebhost.in/blog/top-process-management-commands-in-linux/
-14. [Device Administration](https://www.digitalocean.com/community/tutorials/how-to-perform-basic-administration-tasks-for-storage-devices-in-linux)
+15. [Device Administration](https://www.digitalocean.com/community/tutorials/how-to-perform-basic-administration-tasks-for-storage-devices-in-linux)
     1.  Managing device partitions
        1. fdisk
        2.  mount
@@ -91,12 +83,12 @@
        7.  /dev/sda
        8.  /dev/tty
        9.  /dev/pts
-15. [Communication Commands](https://www.guru99.com/communication-in-linux.html)
+16. [Communication Commands](https://www.guru99.com/communication-in-linux.html)
     1.  SSH
     2.  Ping
     3.  FTP
     4.  Telnet
-16. [Keyboard shortcuts](https://www.techrepublic.com/blog/10-things/10-keyboard-shortcuts-to-improve-your-linux-experience/)
+17. [Keyboard shortcuts](https://www.techrepublic.com/blog/10-things/10-keyboard-shortcuts-to-improve-your-linux-experience/)
 
 
 
