@@ -13,32 +13,10 @@
    2. [Software Repositories](documentation/getting_started_with_linux/software_repositories/README.md)
    3. [Package Management](documentation/getting_started_with_linux/package_management/README.md)
    4. [Workspaces](documentation/getting_started_with_linux/workspaces/README.md)
-
-   5. [Terminator - The Terminal Emulator](documentation/getting_started_with_linux/package_management/README.md)
-      1. https://gnometerminator.blogspot.com/p/introduction.html
-      2. sudo apt-get install terminator
-      3. https://medium.com/@andythedev/getting-the-most-out-of-your-linux-terminal-82099c516058
-      4. https://hackernoon.com/10-basic-tips-on-working-fast-in-unix-or-linux-terminal-5746ae42d277
-   6. [Virtual Terminal](https://www.guru99.com/unix-virtual-terminal.html)
-   7. [VI Editor](https://www.guru99.com/the-vi-editor.html)
-   8. [Shell & Shell Scripting](https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/)
-      1. Different types of shells
-      2. Declaring variables
-      3. Using quotes
-      4. [Environment variables](https://www.guru99.com/linux-environment-variables.html)
-      5. Parameter variables
-      6. Conditional statements
-      7. Functions
-      8. [Redirection](https://www.guru99.com/linux-redirection.html)
-         1. Output Redirection
-         2. Input redirection
-         3. File Descriptors (FD)
-         4. Error Redirection
-         5. https://www.tutorialspoint.com/unix/unix-io-redirections.htm
-         6. https://thoughtbot.com/blog/input-output-redirection-in-the-shell
-         7. https://www.tecmint.com/linux-io-input-output-redirection-operators/
-         8. https://www.linuxtechi.com/standard-input-output-error-in-linux/
-         9. https://likegeeks.com/shell-scripting-awesome-guide-part4/
+   5. [Terminator - The Terminal Emulator](documentation/getting_started_with_linux/terminator/README.md)
+   6. [Virtual Terminal](documentation/getting_started_with_linux/virtual_terminal/README.md)
+   7. [Vim - The Text Editor](documentation/getting_started_with_linux/vim_text_editor/README.md)
+   8. [BASH Shell](documentation/getting_started_with_linux/bash_shell/README.md)
    9. [Sudo](https://www.poftut.com/linux-sudo-command-tutorial-with-examples-to-get-root-privileges/)
    10. [User Administration](https://www.guru99.com/linux-admin.html)
        1.  Setting up root password
