@@ -7,7 +7,7 @@
 5. [Terminator - The Terminal Emulator](terminator/README.md)
 6. [Virtual Terminal](virtual_terminal/README.md)
 7. [Vim - The Text Editor](vim_text_editor/README.md)
-8. [Shell & Shell Scripting](https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/)
+8. [Shell](https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/)
    1. Different types of shells
    2. Declaring variables
    3. Using quotes
