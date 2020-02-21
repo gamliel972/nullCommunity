@@ -1,16 +1,16 @@
 # Setup VyAPI - A Modern (as per 2019) Cloud Based Vulnerable Android App
 
 - [Setup VyAPI - A Modern (as per 2019) Cloud Based Vulnerable Android App](#setup-vyapi---a-modern-as-per-2019-cloud-based-vulnerable-android-app)
-  - [Meet Software Prerequisites](#meet-software-prerequisites)
-  - [Configure the Amplify CLI](#configure-the-amplify-cli)
-  - [Create a User Pool using Amplify CLI](#create-a-user-pool-using-amplify-cli)
-  - [Build VyAPI APK](#build-vyapi-apk)
-  - [Create an Android Virtual Device](#create-an-android-virtual-device)
-  - [Install VyAPI](#install-vyapi)
-  - [Create New Account and Login](#create-new-account-and-login)
+  - [1. Meet Software Prerequisites](#1-meet-software-prerequisites)
+  - [2. Configure the Amplify CLI](#2-configure-the-amplify-cli)
+  - [3. Create a User Pool using Amplify CLI](#3-create-a-user-pool-using-amplify-cli)
+  - [4. Build VyAPI APK](#4-build-vyapi-apk)
+  - [5. Create an Android Virtual Device](#5-create-an-android-virtual-device)
+  - [6. Install and Run VyAPI](#6-install-and-run-vyapi)
+  - [7. Create New Account and Login](#7-create-new-account-and-login)
   - [References](#references)
 
-## Meet Software Prerequisites 
+## 1. Meet Software Prerequisites 
 
 Follow the `Prerequisites` section of [VyAPI GitHub repository](https://github.com/appsecco/VyAPI) to ensure all required softwares are installed in your laptop. You should be ready to use the following 
 
@@ -18,7 +18,7 @@ Follow the `Prerequisites` section of [VyAPI GitHub repository](https://github.c
 2. AWS CLI
 3. Android Studio
 
-## Configure the Amplify CLI
+## 2. Configure the Amplify CLI
 
 1. Run following command in a terminal window
 
@@ -66,7 +66,7 @@ Follow the `Prerequisites` section of [VyAPI GitHub repository](https://github.c
     ![](image/2g-check-user-in-iam-home.png)
 
 
-## Create a User Pool using Amplify CLI
+## 3. Create a User Pool using Amplify CLI
 
 By executing below steps, we will build the user **sign-up** and **sign-in** features into our Android app. Amplify CLI will allow us to customize the auth flow for our app.
 
@@ -152,7 +152,7 @@ By executing below steps, we will build the user **sign-up** and **sign-in** fea
 
         ![Success](image/5c-success.png)
 
-## Build VyAPI APK
+## 4. Build VyAPI APK
 
 1. Open the VyAPI project in **Android Studio**
 
@@ -165,7 +165,7 @@ By executing below steps, we will build the user **sign-up** and **sign-in** fea
 3.  Obtain the VyAPI APK from the relative path `VyAPI/app/build/outputs/apk/debug/app-debug.apk`
 
 
-## Create an Android Virtual Device
+## 5. Create an Android Virtual Device
 
 1. In **Android Studio**, click on the `AVD Manager` icon
 
@@ -182,7 +182,7 @@ By executing below steps, we will build the user **sign-up** and **sign-in** fea
     ![Launch AVD](image/7b-start-emulator.png)
     ![Android emulator](image/7c-android-emulator.png)
 
-## Install VyAPI
+## 6. Install and Run VyAPI
 
 1. Install the VyAPI APK into the Android Emulator by running following command
 
@@ -198,7 +198,7 @@ By executing below steps, we will build the user **sign-up** and **sign-in** fea
    
     ![VyAPI](image/8c-VyAPI.png)
 
-## Create New Account and Login
+## 7. Create New Account and Login
 
 1. Start the VyAPI app to see **Amazon Cognito** login screen
 2. Click on the `Create New Account` button and fill user registration form
