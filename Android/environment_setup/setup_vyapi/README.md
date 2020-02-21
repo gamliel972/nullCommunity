@@ -1,6 +1,16 @@
 # Setup VyAPI - A Modern (as per 2019) Cloud Based Vulnerable Android App
 
-## Software Prerequisites 
+- [Setup VyAPI - A Modern (as per 2019) Cloud Based Vulnerable Android App](#setup-vyapi---a-modern-as-per-2019-cloud-based-vulnerable-android-app)
+  - [Meet Software Prerequisites](#meet-software-prerequisites)
+  - [Configure the Amplify CLI](#configure-the-amplify-cli)
+  - [Create a User Pool using Amplify CLI](#create-a-user-pool-using-amplify-cli)
+  - [Build VyAPI APK](#build-vyapi-apk)
+  - [Create an Android Emulator](#create-an-android-emulator)
+  - [Install VyAPI](#install-vyapi)
+  - [Create New App User Account](#create-new-app-user-account)
+  - [References](#references)
+
+## Meet Software Prerequisites 
 
 Follow the `Prerequisites` section of [VyAPI GitHub repository](https://github.com/appsecco/VyAPI) to ensure all required softwares are installed in your laptop. You should be ready to use the following 
 
@@ -56,7 +66,9 @@ Follow the `Prerequisites` section of [VyAPI GitHub repository](https://github.c
     ![](image/2g-check-user-in-iam-home.png)
 
 
-## Build VyAPI using Amplify Framework
+## Create a User Pool using Amplify CLI
+
+By executing below steps, we will build the user **sign-up** and **sign-in** features into our Android app. Amplify CLI will allow us to customize the auth flow for our app.
 
 1. Clone the VyAPI GitHub repository
 
@@ -66,4 +78,116 @@ Follow the `Prerequisites` section of [VyAPI GitHub repository](https://github.c
 
         cd VyAPI/
 
-3. 
+3. Run following command to **initialize the project** to work with *Amplify CLI*
+
+        amplify init
+
+4. Follow the on-screen instructions
+
+    ![amplify init](image/4-amplify-init.png)
+
+5. When asked to choose an AWS profile, choose the profile that was created earlier in step #8 of previous section (i.e. `Configure the Amplify CLI`)
+
+    ![](image/4b-choose-aws-profile.png)
+6. Add authentication resource in your local backend
+
+        amplify add auth
+
+    ![Add authentication resource](image/4c-add-auth.png)
+
+7. Run the following command and ensure that **unauthenticated logins** are allowed
+
+        amplify auth update
+
+    ![amplify auth update](image/4f-amplify-auth-update.png)
+
+    Options selected are:
+
+    1. Walkthrough all the auth configurations
+    2. User Sign-Up, Sign-In, connected with AWS IAM controls (Enables per-user Storage features for images or other content, Analytics, and more)
+    3. Allow unauthenticated logins? - **Yes**
+    4. Do you want to enable 3rd party authentication providers in your identity pool? - **No**
+    5. Do you want to use an OAuth flow? - **No**
+
+    *Note:* For options not listed above, you can choose to go with the default values.
+
+8.  Check the state of local resources not yet pushed to the cloud
+
+        amplify status
+    
+    ![Amplify status](image/4d-ampify-status.png)
+9.  Push the local changes to cloud
+
+        amplify push
+
+    ![amplify push](image/4e-amplify-push.png)
+
+    *Note:* Please be patient while this command runs, as it would take a few minutes to complete.
+
+10. In case you see an **error** message similar to 
+    
+        The runtime parameter of nodejs8.10 is no longer supported for creating or updating AWS Lambda functions. We recommend you use the new runtime (nodejs12.x) while creating or updating functions.
+
+    ![](image/4g-error.png)
+    
+    then some troubleshooting is required.
+
+    1. Locate the file that specifies node runtime version
+
+            grep -r -i "nodejs" ./
+
+        ![Node version identification](image/5-node-version.png)
+
+    2. Do a global string replacement of `nodejs8.10` to `nodejs12.x` in the identified template file
+
+            sed -i 's/nodejs8.10/nodejs12.x/g' ./auth/vyapi38afdbb9/vyapi38afdbb9-cloudformation-template.yml
+    
+    3. Push the local changes to cloud
+
+            amplify push
+
+        ![amplify push](image/4e-amplify-push.png)
+
+    4. This time you should see the success message `All resources are updated in the cloud`
+
+        ![Success](image/5c-success.png)
+
+## Build VyAPI APK
+
+11. Open the project in **Android Studio**
+12. Generate the VyAPI APK by selecting `Build Bundle(s)/ APK(s)` -> `Build APK(s)` in *Android Studio*
+13. Obtain the VyAPI APK from the relative path `app/release/app-release.apk`
+
+Note: For a detailed description (with step-wise screenshots) refer the [VyAPI GitHub repository](https://github.com/appsecco/VyAPI)
+
+
+## Create an Android Emulator
+
+Below image shows the Android Emulator configuration as was used at the time of VyAPI development
+
+![Android Emulator](image/3-android-emulator.png)
+
+## Install VyAPI
+
+Install the VyAPI APK into the Android Emulator by running following command
+
+    adb install app-release.apk
+
+## Create New App User Account
+
+1. Start the VyAPI app to see **Amazon Cognito** login screen
+2. Click on the `Create New Account` button and fill user registration form
+   1. Enter a valid email ID
+   2. Enter 10 digit phone number preceded by plus symbol and two-digit country code (e.g., +915544332211)
+   3. Confirmation code would be sent to your registered email address
+3. Retrieve the confirmation code from your inbox
+4. Paste the confirmation code into the `Confirmation code` input box of **Confirm your account** page
+5. Wait for the **Sign up confirmation succeeded** message to show up
+6. Login with the registered username and password
+7. On successful login, you would see the empty contacts page
+
+## References
+
+* [https://aws-amplify.github.io/docs/cli/lambda-node-version-update](https://aws-amplify.github.io/docs/cli/lambda-node-version-update)
+* [https://www.howtoforge.com/tutorial/linux-grep-command/](https://www.howtoforge.com/tutorial/linux-grep-command/)
+* [https://www.cyberciti.biz/faq/how-to-use-sed-to-find-and-replace-text-in-files-in-linux-unix-shell/](https://www.cyberciti.biz/faq/how-to-use-sed-to-find-and-replace-text-in-files-in-linux-unix-shell/)
