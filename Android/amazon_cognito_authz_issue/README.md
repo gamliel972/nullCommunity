@@ -8,7 +8,6 @@
   - [3. Find a Cognito Identity Pool ID](#3-find-a-cognito-identity-pool-id)
   - [4. Fetch Temporary AWS Credentials](#4-fetch-temporary-aws-credentials)
   - [5. Check Unauthenticated Access to AWS Services](#5-check-unauthenticated-access-to-aws-services)
-  - [Play With Amazon Cognito Setup](#play-with-amazon-cognito-setup)
   - [References](#references)
 
 ## 1. Setup AWS CLI
@@ -107,15 +106,6 @@ Use the `enumerate-iam.py` python script to check which AWS services have unauth
 
 ![Brute force AWS service access](image/4-brute-force-aws-service-access.png)
 
-## Play With Amazon Cognito Setup
-
-1. Access VyAPI local repository
-
-        $ cd VyAPI/
-
-2. Run below command to modify existing authentication settings
-
-        $ amplify auth update
 
 ## References
 
