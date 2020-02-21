@@ -7,7 +7,7 @@
   - [Build VyAPI APK](#build-vyapi-apk)
   - [Create an Android Virtual Device](#create-an-android-virtual-device)
   - [Install VyAPI](#install-vyapi)
-  - [Create New Account](#create-new-account)
+  - [Create New Account and Login](#create-new-account-and-login)
   - [References](#references)
 
 ## Meet Software Prerequisites 
@@ -198,7 +198,7 @@ By executing below steps, we will build the user **sign-up** and **sign-in** fea
    
     ![VyAPI](image/8c-VyAPI.png)
 
-## Create New Account
+## Create New Account and Login
 
 1. Start the VyAPI app to see **Amazon Cognito** login screen
 2. Click on the `Create New Account` button and fill user registration form
@@ -210,6 +210,8 @@ By executing below steps, we will build the user **sign-up** and **sign-in** fea
 5. Wait for the **Sign up confirmation succeeded** message to show up
 6. Login with the registered username and password
 7. On successful login, you would see the empty contacts page
+
+Note: For detailed steps (with screenshots), refer the `Getting Started` section in [VyAPI GitHub repository](https://github.com/appsecco/VyAPI/blob/master/README.md)
 
 ## References
 
