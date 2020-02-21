@@ -5,9 +5,9 @@
   - [Configure the Amplify CLI](#configure-the-amplify-cli)
   - [Create a User Pool using Amplify CLI](#create-a-user-pool-using-amplify-cli)
   - [Build VyAPI APK](#build-vyapi-apk)
-  - [Create an Android Emulator](#create-an-android-emulator)
+  - [Create an Android Virtual Device](#create-an-android-virtual-device)
   - [Install VyAPI](#install-vyapi)
-  - [Create New App User Account](#create-new-app-user-account)
+  - [Create New Account](#create-new-account)
   - [References](#references)
 
 ## Meet Software Prerequisites 
@@ -154,26 +154,51 @@ By executing below steps, we will build the user **sign-up** and **sign-in** fea
 
 ## Build VyAPI APK
 
-11. Open the project in **Android Studio**
-12. Generate the VyAPI APK by selecting `Build Bundle(s)/ APK(s)` -> `Build APK(s)` in *Android Studio*
-13. Obtain the VyAPI APK from the relative path `app/release/app-release.apk`
+1. Open the VyAPI project in **Android Studio**
 
-Note: For a detailed description (with step-wise screenshots) refer the [VyAPI GitHub repository](https://github.com/appsecco/VyAPI)
+    ![Open project in Android Studio](image/6-import-in-android-studio.png)
+
+2. Generate the VyAPI APK by selecting `Build Bundle(s)/ APK(s)` -> `Build APK(s)` in *Android Studio*
+
+    ![Build APK](image/6b-build-apk.png)
+
+3.  Obtain the VyAPI APK from the relative path `VyAPI/app/build/outputs/apk/debug/app-debug.apk`
 
 
-## Create an Android Emulator
+## Create an Android Virtual Device
 
-Below image shows the Android Emulator configuration as was used at the time of VyAPI development
+1. In **Android Studio**, click on the `AVD Manager` icon
 
-![Android Emulator](image/3-android-emulator.png)
+    ![AVD Manager](image/7-avd-manager.png)
+
+2. Follow steps mentioned [here](https://developer.android.com/studio/run/managing-avds) to create a new virtual device.
+
+    *Note:* Below image shows the configuration that was used at the time of VyAPI development
+
+    ![Sample AVD configuration](image/3-android-emulator.png)
+
+3. Launch the selected AVD in Android emulator
+
+    ![Launch AVD](image/7b-start-emulator.png)
+    ![Android emulator](image/7c-android-emulator.png)
 
 ## Install VyAPI
 
-Install the VyAPI APK into the Android Emulator by running following command
+1. Install the VyAPI APK into the Android Emulator by running following command
 
-    adb install app-release.apk
+        adb install /path/to/app-debug.apk
 
-## Create New App User Account
+    ![Install APK](image/8-install-apk.png)
+
+2. Start the Android app by clicking on the VyAPI icon in Android emulator
+
+    ![VyAPI icon](image/8b-apk-installed.png)
+
+3. You should see the `Sign-in` screen
+   
+    ![VyAPI](image/8c-VyAPI.png)
+
+## Create New Account
 
 1. Start the VyAPI app to see **Amazon Cognito** login screen
 2. Click on the `Create New Account` button and fill user registration form
