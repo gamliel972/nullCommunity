@@ -1,5 +1,11 @@
 # Android Debug Bridge (ADB)
 
+- [Android Debug Bridge (ADB)](#android-debug-bridge-adb)
+  - [1. Installation](#1-installation)
+  - [2. Common ADB Commands](#2-common-adb-commands)
+  - [3. Solve It](#3-solve-it)
+  - [References](#references)
+
 ## 1. Installation
 
 1. Download the SDK Platform-Tools for Windows / Mac / Linux from [developer.android.com](https://developer.android.com/studio/releases/platform-tools.html)
@@ -42,6 +48,14 @@
 6. To view the **logs**
 
         $ ./adb logcat
+
+## 3. Solve It 
+
+> **EXERCISE-4:**
+> 1. Access the `/data/data/` folder of your Android virtual device
+> 2. Can you locate the application folder that belongs to `VyAPI` app?
+> 3. Copy the folder `com.appsecco.vyapi` onto your local machine
+> 4. Push a random file into the `/sdcard/Pictures/` folder of your Android virtual device
 
 ## References
 

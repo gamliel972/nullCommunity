@@ -1,11 +1,11 @@
 # Reverse Engineering
 
 - [Reverse Engineering](#reverse-engineering)
-  - [Identify the Supported Architecture](#identify-the-supported-architecture)
-  - [Explore the APK Bundle](#explore-the-apk-bundle)
-  - [Decode the APK](#decode-the-apk)
+  - [1. Identify the Supported Architecture](#1-identify-the-supported-architecture)
+  - [2. Explore the APK Bundle](#2-explore-the-apk-bundle)
+  - [3. Decode the APK](#3-decode-the-apk)
 
-## Identify the Supported Architecture
+## 1. Identify the Supported Architecture
 
 1. Unzip the APK
 
@@ -19,7 +19,7 @@
 
 3. If app installation is failing on an Android Virtual Device (AVD), check if the AVD supports one of the listed architectures (see step #2, above). If not, create a new AVD that supports any of the above listed architectures.
 
-## Explore the APK Bundle
+## 2. Explore the APK Bundle
 
 1. Browse through different files and folders in the **unzipped** APK bundle. Look for interesting files.
 
@@ -31,7 +31,7 @@
 > **EXERCISE-1:**
 > Make a list of all interesting files and folders that you see in the unzipped APK 
 
-## Decode the APK
+## 3. Decode the APK
 
 1. Convert the APK into a JAR file using **Enjarify** tool
 
