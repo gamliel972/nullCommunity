@@ -7,7 +7,7 @@
     - [Enumerate IAM](#enumerate-iam)
   - [3. Find a Cognito Identity Pool ID](#3-find-a-cognito-identity-pool-id)
   - [4. Fetch Temporary AWS Credentials](#4-fetch-temporary-aws-credentials)
-  - [5. Check Unauthenticated Access to AWS Services](#5-check-unauthenticated-access-to-aws-services)
+  - [5. Test for Unauthenticated Access to Sensitive AWS Services](#5-test-for-unauthenticated-access-to-sensitive-aws-services)
   - [References](#references)
 
 ## 1. Setup AWS CLI
@@ -98,13 +98,20 @@ Use **Boto3** python script to fetch the temporary AWS credentials
 
 ![Fetch temporary AWS credentials](image/3-get-pool-credentials.png)
 
-## 5. Check Unauthenticated Access to AWS Services
+## 5. Test for Unauthenticated Access to Sensitive AWS Services
 
-Use the `enumerate-iam.py` python script to check which AWS services have unauthenticated access enabled
+1. Execute the `enumerate-iam.py` python script 
 
+    ```bash
+    (venv) $ cd enumerate-iam
     (venv) $ python enumerate-iam.py --access-key "<ACCESS_KEY>" --secret-key "<SECRET_KEY>" --session-token "<SESSION_TOKEN>" --region "<REGION_ID>"
+    ```
 
-![Brute force AWS service access](image/4-brute-force-aws-service-access.png)
+2. Check if any of the listed AWS services are sensitive
+
+    ![Brute force AWS service access](image/4-brute-force-aws-service-access.png)
+
+3. All of the listed AWS services can be accessed by unauthenticated users. If a sensitive AWS service is listed, then this should be reported as a security issue.
 
 
 ## References
