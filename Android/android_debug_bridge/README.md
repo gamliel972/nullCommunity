@@ -52,10 +52,10 @@
 ## 3. Solve It 
 
 > **EXERCISE-4:**
-> 1. Access the `/data/data/` folder of your Android virtual device
+> 1. Access the `/data/data/` folder of your Android Virtual Device
 > 2. Can you locate the application folder that belongs to `VyAPI` app?
-> 3. Copy the folder `com.appsecco.vyapi` onto your local machine
-> 4. Push a random file into the `/sdcard/Pictures/` folder of your Android virtual device
+> 3. **Copy** the folder `com.appsecco.vyapi` onto your local machine. Analyze the folder locally to find interesting files, if any.
+> 4. Modify contents of a downloaded file. **Push** the modified file into the Android Virtual Device. The original file should be replaced with the modified file inside the Android Virtual Device. 
 
 ## References
 
