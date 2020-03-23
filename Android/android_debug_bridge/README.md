@@ -43,7 +43,7 @@
 
 5. To **push** a file or a directory into the Android device
 
-        $ ./adb pull /local/path/on/host /remote/path/on/connected/device
+        $ ./adb push /local/path/on/host /remote/path/on/connected/device
 
 6. To view the **logs**
 
