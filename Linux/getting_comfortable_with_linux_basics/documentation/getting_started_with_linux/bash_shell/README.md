@@ -1,5 +1,6 @@
 # BASH Shell <!-- omit in toc -->
 
+- [Shell Types](#shell-types)
 - [Shell Scripting](#shell-scripting)
 - [Examples](#examples)
 - [References](#references)
@@ -7,6 +8,32 @@
 A shell is special user program which provides an interface to the user to use operating system services. It is a command language interpreter that executes commands read from input devices such as keyboards or from files.
 
 **BASH** (*Bourne Again SHell*) is the most widely used shell in Linux systems. It is used as default login shell in Linux systems and in macOS.
+
+## Shell Types
+
+* Identify all known shells in your Linux system
+
+    ```bash
+    $ cat /etc/shells
+    # /etc/shells: valid login shells
+    /bin/sh
+    /bin/bash
+    /usr/bin/bash
+    /bin/rbash
+    /usr/bin/rbash
+    /bin/dash
+    /usr/bin/dash
+    /usr/bin/screen
+    ```
+
+* Is your shell interactive? 
+
+    ```bash
+    $ echo $-
+    himBHs
+    ```
+
+    If the output contains an `i` then the shell is interactive.
 
 ## Shell Scripting
 
@@ -77,3 +104,4 @@ A shell is special user program which provides an interface to the user to use o
 
 * https://hacker-tools.github.io/shell/
 * https://www.gnu.org/software/bash/manual/bash.html
+* https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_01_01.html
